@@ -1,0 +1,39 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore PHPStorm files
+.idea/
+
+# Ignore Composer dependencies
+/vendor/
+
+# Ignore local development server files
+/.phpunit.result.cache
+/phpunit.xml
+
+# Ignore local server environment files
+/.env.local
+/.env.local.php
+
+# Ignore logs
+/log/
+*.log
+
+# Ignore user-specific files
+/.php_cs.cache
+/.php_cs.local.php
+
+# Ignore any backup files
+*.bak
+
+# Ignore built assets
+/node_modules/
+/public/build/
+
+# Ignore SQLite database file
+/var/
+*.sqlite
+
+# Ignore OS generated files
+ehthumbs.db
+Thumbs.db
